@@ -5,7 +5,7 @@ from ta.trend import MACD, EMAIndicator, SMAIndicator
 from ta.momentum import RSIIndicator, StochasticOscillator
 import datetime
 
-hisse = "BIMAS.IS"
+hisse = "HISSEADI.IS"
 
 def veri_indir(his, baslangic_tarihi, bitis_tarihi):
     df = yf.download(his, start=baslangic_tarihi, end=bitis_tarihi, progress=False)
